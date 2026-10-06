@@ -1,0 +1,20 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Exclude zip from git repo (kept locally or in releases)
+scraping_assignment.zip
